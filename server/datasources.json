@@ -16,8 +16,8 @@
      "name": "mongodbDs",
      "connector": "mongodb",
      "host": "",
-     "database": "appointment",
-     "username": "root",
+     "database": "demo",
+     "username": "",
      "password": ""
     }    
 }
