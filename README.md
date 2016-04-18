@@ -21,5 +21,5 @@ Start your server
 $ node .
 ```
 
-## MySQL config
-This `replaceDemo` app uses MySQL as a database. Hence, before running the application you need to add your MySQL configuration accordingly in `server/datasource.json` file.
+## Database config
+This `replaceDemo` app uses mongodb as a database. Hence, before running the application you need to add your mongodb configuration accordingly in `server/datasource.json` file.
