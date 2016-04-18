@@ -12,12 +12,13 @@
      "username": "root",
      "password": ""
     },
-  "mongodbDs": {
-     "name": "mongodbDs",
-     "connector": "mongodb",
-     "host": "",
-     "database": "demo",
-     "username": "",
-     "password": ""
-    }    
+  "mongodbDs": { 
+    "name": "mongodbDs",
+    "connector": "mongodb",
+    "host": "127.0.0.1", 
+    "database": "demo", 
+    "username": "", 
+    "password": "", 
+    "port": 27017 
+  }
 }
