@@ -1,0 +1,9 @@
+,
+  "oracle": {
+    "host": "oracle-test.strongloop.com",
+    "port": 1521,
+    "database": "XE",
+    "username": "test",
+    "password": "str0ng100pjs",
+    "connector": "oracle"
+  }

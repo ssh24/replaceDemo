@@ -4,21 +4,44 @@
     "connector": "memory"
   },
   "mysqlDs": {
-     "name": "mysqlDs",
-     "connector": "mysql",
-     "host": "localhost",
-     "port": 3306,
-     "database": "demo",
-     "username": "root",
-     "password": ""
-    },
-  "mongodbDs": { 
+    "name": "mysqlDs",
+    "connector": "mysql",
+    "host": "166.78.158.45",
+    "port": 3306,
+    "database": "test",
+    "username": "test",
+    "password": "str0ng100pjs"
+  },
+  "mongodbDs": {
     "name": "mongodbDs",
     "connector": "mongodb",
-    "host": "127.0.0.1", 
-    "database": "demo", 
-    "username": "", 
-    "password": "", 
-    "port": 27017 
+    "host": "166.78.158.45",
+    "database": "strongloop",
+    "username": "strongloop",
+    "password": "str0ng100pjs",
+    "port": 27017
+  },
+  "postgresqlDs": {
+    "host": "166.78.158.45",
+    "port": 5432,
+    "database": "test",
+    "username": "test",
+    "password": "str0ng100pjs",
+    "connector": "postgresql"
+  },
+  "mssql": {
+    "host": "mssql.strongloop.com",
+    "user": "test",
+    "password": "str0ng100pjs",
+    "database": "test",
+    "connector": "mssql"
+  },
+  "oracle": {
+    "host": "oracle-test.strongloop.com",
+    "port": 1521,
+    "database": "XE",
+    "username": "test",
+    "password": "str0ng100pjs",
+    "connector": "oracle"
   }
 }

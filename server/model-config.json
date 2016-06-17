@@ -32,8 +32,8 @@
     "dataSource": "db",
     "public": false
   },
-  "customer": {
-    "dataSource": "mongodbDs",
+  "customerjanny": {
+    "dataSource": "oracle",
     "public": true
   }
 }
