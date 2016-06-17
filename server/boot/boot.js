@@ -1,6 +1,6 @@
 module.exports = function(server, done) {
-  var customers = server.models.customerjanny;
-  server.dataSources.oracle.automigrate('customerjanny', function(err) {
+  var customers = server.models.customer2;
+  server.dataSources.oracle.automigrate('customer2', function(err) {
     if (err) {
       console.error("boot, ERR:", err);
       done(err);
